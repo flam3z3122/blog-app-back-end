@@ -1,13 +1,14 @@
+const PORT = process.env.PORT || 8888;
 const express = require("express");
 const app = express();
 const cors =require("cors");
-const blogRoutes= require('./routes/blogRoutes')
 
 app.use(cors())
 
-const PORT = process.env.PORT || 5000;
 
-app.use("/api/v1", blogRoutes)
+app.use('/api/v1', require('./routes'));
+
 app.listen(PORT,()=>{
-    console.log("Application has started");
+    console.log(`Application has started on http://localhost:${PORT}`);
 })
+

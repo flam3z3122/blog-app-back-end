@@ -1,8 +1,0 @@
-const express = require("express")
-const router = express.Router();
-const blogController= require ('./controllers/appData')
-
-router.route("/blog").get(blogController);
-router.route("/blog/category/:id").get(blogController);
-
-module.exports =router;
