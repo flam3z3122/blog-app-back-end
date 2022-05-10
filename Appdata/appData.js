@@ -454,7 +454,7 @@ const appData = [
         claps: 200,
         category: "Food",
         image:
-            "https://c32-cdn.guidingtech.com/optim/assets/189868/HD-Mouth-Watering-Food-Wallpapers-for-Desktop-11_4d470f76dc99e18ad75087b1b8410ea9.jpg?1573743471",
+            "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
         date: "January 12 2022",
         text: ` Occaecat est nostrud non sint officia reprehenderit commodo ea esse. Excepteur ullamco do in elit et culpa qui commodo Lorem consectetur occaecat. Enim adipisicing ut magna est excepteur et ullamco velit culpa ullamco ipsum qui dolore nostrud.`,
         tags: ["Food", "Tasty"],
